@@ -32,7 +32,7 @@ class PizzaStoreAdapter(
         val imgLogo = row.findViewById<ImageView>(R.id.imgLogo)
         val txtStoreName = row.findViewById<TextView>(R.id.txtStoreName)
 
-        txtStoreName.text = txtStoreName.toString()
+        txtStoreName.text = data.name
         Glide.with(mContext).load(data.logoURL).into(imgLogo)
 
         return row
