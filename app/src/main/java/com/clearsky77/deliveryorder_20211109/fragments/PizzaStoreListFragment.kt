@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.clearsky77.deliveryorder_20211109.R
+import com.clearsky77.deliveryorder_20211109.ViewStoreDetailActivity
 import com.clearsky77.deliveryorder_20211109.adapters.PizzaStoreAdapter
 import com.clearsky77.deliveryorder_20211109.datas.StoreData
 import kotlinx.android.synthetic.main.fragment_pizza_store_list.*
